@@ -5,7 +5,7 @@ import app from './app';
 let currentApp = app.callback();
 // 创建server
 const server = http.createServer(currentApp);
-server.listen(3000);
+server.listen(8000);
 
 // 热加载
 if (module.hot) {
